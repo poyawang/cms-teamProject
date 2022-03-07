@@ -2,7 +2,7 @@
  * Contains the controllers for the live site
  */
 
-// Homepage route
+// Homepage controller
 exports.getHomePage = (req, res, next) => {
   res.status(200).json({
     pageFound: true,
@@ -11,6 +11,7 @@ exports.getHomePage = (req, res, next) => {
   });
 };
 
+// level 1 subpage controller
 exports.getSubpageOne = (req, res, next) => {
   res.status(200).json({
     pageFound: true,
